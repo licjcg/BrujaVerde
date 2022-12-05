@@ -1,0 +1,22 @@
+.titulo h1{
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     text-align: right;
+ }
+ text{
+     text-align: justify;
+ }
+ .img-thumbnail {
+     padding: 10px;
+ }
+ .img{
+     border: 15px;
+     margin: 5px;
+     padding-bottom: 50px
+ }
+ h3{ 
+    color:  chocolate; 
+ }
+ .lead {
+    padding-left: 50px;
+    padding-right: 50px;
+  }

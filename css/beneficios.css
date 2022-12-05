@@ -1,0 +1,54 @@
+h3{ 
+   color:  chocolate; 
+}
+
+/* Parallax */
+ul {
+  list-style: none;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+section 
+{
+  transform-style: preserve-3d;
+  position:static;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(252, 249, 249);
+  background: #fff fixed no-repeat 50% 50%;
+  background-size: cover;
+  background-image: url(../img/PortadaKokes-1.png);
+}
+
+/* boton consulta gratis */
+#boton
+{
+  margin: 10px;
+  padding: 10px;
+}
+
+.lead {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* Acordeon */
+.accordion{
+  padding-left: 35px;
+  padding-right: 35px;
+}
+#titulo-cuidados{
+  padding: 10px;
+}
+#imagenes-acordeon{
+  width: 20em;
+  padding: 20px;
+}
+
+@media (max-width: 800px) {
+  #imagenes-acordeon{
+  width:100%;
+  }
+  }

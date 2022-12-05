@@ -1,0 +1,32 @@
+/*index*/
+.portada {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+  }
+  .img{
+    border: 15px;
+    margin: 5px;
+    padding-bottom: 50px;
+  }
+  main {
+    padding-bottom: 50px;
+  }
+  .centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: rgb(157,196,167);
+    background-color: sienna;
+    font-style: oblique;
+  }
+  .lead {
+    padding-right: 50px;
+  }
+  
+  @media (max-width: 800px) {
+    .col .card img{
+    width:100%;
+    }
+    }
